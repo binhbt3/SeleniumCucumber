@@ -1,0 +1,1007 @@
+[INFO] 03-09-2024 16:58:29 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 03-09-2024 16:58:29 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-09-2024 16:58:29 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=yes, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=yes, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 03-09-2024 16:58:30 [main] [LogUtils] - Before scenario
+[INFO] 03-09-2024 16:58:30 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-09-2024 16:58:30 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=yes, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=yes, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 03-09-2024 16:58:30 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:58:33 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (0be385d687d9d4f930ee0fed23de8d03)
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - Open URL: https://rahulshettyacademy.com/seleniumPractise/#/
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 16:58:39 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:58:40 [main] [LogUtils] - Clear value in textbox By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:58:40 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:58:40 [main] [LogUtils] - Set text Raspberry - 1/4 Kg on By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Number of items in search result: 1
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Element existing
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Show information of list search Item result
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - i: 0
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - j: 0
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - itemNameExpectedList.get(j): Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - itemPriceActual: 160
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:58:41 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:58:42 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:58:42 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 16:58:42 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 16:58:43 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:58:43 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 16:58:43 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 16:58:44 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:58:44 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 16:58:44 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 16:58:46 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:58:46 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 16:58:46 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 16:58:47 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:58:47 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 16:58:47 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 16:58:47 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:58:47 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 160
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Value from table at row 2 column 3 is 160
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - itemInCart: {Raspberry - 1/4 Kg=1}
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:58:48 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Product NameRaspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - itemNameExpected: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:58:50 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:58:51 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:58:52 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:58:52 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 16:58:52 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 16:58:52 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 16:58:52 [main] [LogUtils] - Verify element visible By.xpath: //tbody//td[5]/p
+[INFO] 03-09-2024 16:58:52 [main] [LogUtils] - totalRows size: 1
+[INFO] 03-09-2024 16:58:53 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 16:58:53 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:53 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:54 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 16:58:54 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:54 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:58:55 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:58:55 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 16:58:55 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 16:58:55 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:58:55 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:56 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[4]
+[INFO] 03-09-2024 16:58:56 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[4] is: 160
+[INFO] 03-09-2024 16:58:56 [main] [LogUtils] - Value from table at row 1 column 4 is 160
+[INFO] 03-09-2024 16:58:56 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:56 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[5]
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[5] is: 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Value from table at row 1 column 5 is 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Passed verify at line 112: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Passed verify at line 113: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Passed verify at line 114: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Promo Code: rahulshettyacademy
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 16:58:57 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 16:58:58 [main] [LogUtils] - Clear and Fill rahulshettyacademy on By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 16:58:58 [main] [LogUtils] - Verify element visible By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 16:58:58 [main] [LogUtils] - Clicked on the element By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 10%
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify Equals: 10 = 10
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Passed verify at line 120: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Passed verify at line 121: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Passed verify at line 122: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 144
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify Equals: 144 = 144
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Passed verify at line 129: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 16:59:03 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Select Option by Text: Vietnam
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Clicked on the element By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:04 [main] [LogUtils] - After scenario
+[INFO] 03-09-2024 16:59:15 [main] [LogUtils] - Before scenario
+[INFO] 03-09-2024 16:59:15 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:17 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (7fdae45c029461c6ca0e49b232fe33ff)
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Javascript in NOT Ready!
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Open URL: https://rahulshettyacademy.com/seleniumPractise/#/
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Clear value in textbox By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:20 [main] [LogUtils] - Set text Raspberry - 1/4 Kg on By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:21 [main] [LogUtils] - Number of items in search result: 1
+[INFO] 03-09-2024 16:59:21 [main] [LogUtils] - Element existing
+[INFO] 03-09-2024 16:59:21 [main] [LogUtils] - Show information of list search Item result
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - i: 0
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - j: 0
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - itemNameExpectedList.get(j): Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - itemPriceActual: 160
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:59:22 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:23 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:23 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 16:59:23 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 16:59:24 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:24 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 16:59:24 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 16:59:25 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:25 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 16:59:25 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 16:59:26 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:26 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 16:59:26 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 16:59:27 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:27 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 16:59:27 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 16:59:27 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:59:27 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 160
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Value from table at row 2 column 3 is 160
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - itemInCart: {Raspberry - 1/4 Kg=1}
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:28 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Product NameRaspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - itemNameExpected: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - itemNameExpectedList: [Tomato - 1 Kg]
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - itemPriceExpectedList: [16]
+[INFO] 03-09-2024 16:59:30 [main] [LogUtils] - qualityList: [2]
+[INFO] 03-09-2024 16:59:31 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:31 [main] [LogUtils] - Clear value in textbox By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:31 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:31 [main] [LogUtils] - Set text Tomato - 1 Kg on By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Number of items in search result: 1
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Element existing
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Show information of list search Item result
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - itemNameActual: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Verify Equals: Tomato - 1 Kg CONTAINS Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - itemNameActual: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - i: 0
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - j: 0
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - itemNameExpectedList.get(j): Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Verify Equals: Tomato - 1 Kg CONTAINS Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - itemPriceActual: 16
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Verify Equals: 16 = 16
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 16:59:32 [main] [LogUtils] - Clear and Fill 2 on By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 16:59:33 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:33 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 16:59:33 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 16:59:34 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:34 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 160
+[INFO] 03-09-2024 16:59:34 [main] [LogUtils] - Value from table at row 2 column 3 is 160
+[INFO] 03-09-2024 16:59:35 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:35 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 16:59:35 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 16:59:36 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:36 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 160
+[INFO] 03-09-2024 16:59:36 [main] [LogUtils] - Value from table at row 2 column 3 is 160
+[INFO] 03-09-2024 16:59:38 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:38 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 2
+[INFO] 03-09-2024 16:59:38 [main] [LogUtils] - Value from table at row 1 column 3 is 2
+[INFO] 03-09-2024 16:59:38 [main] [LogUtils] - Verify Equals: 2 = 2
+[INFO] 03-09-2024 16:59:38 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 192
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Value from table at row 2 column 3 is 192
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Verify Equals: 192 = 192
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - itemInCart: {Raspberry - 1/4 Kg=1, Tomato - 1 Kg=2}
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:39 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Product NameRaspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - itemNameExpected: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Product NameTomato - 1 Kg
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - itemNameExpected: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify Equals: 16 = 16
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify Equals: 32 = 32
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:59:41 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - After step
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - Verify element visible By.xpath: //tbody//td[5]/p
+[INFO] 03-09-2024 16:59:42 [main] [LogUtils] - totalRows size: 2
+[INFO] 03-09-2024 16:59:43 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 16:59:43 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:43 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:44 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 16:59:44 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:44 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:45 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 16:59:45 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 16:59:45 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 16:59:45 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 16:59:45 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:47 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[4]
+[INFO] 03-09-2024 16:59:47 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[4] is: 160
+[INFO] 03-09-2024 16:59:47 [main] [LogUtils] - Value from table at row 1 column 4 is 160
+[INFO] 03-09-2024 16:59:47 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:47 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:48 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[5]
+[INFO] 03-09-2024 16:59:48 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[5] is: 160
+[INFO] 03-09-2024 16:59:48 [main] [LogUtils] - Value from table at row 1 column 5 is 160
+[INFO] 03-09-2024 16:59:48 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 16:59:48 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:49 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 16:59:49 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:49 [main] [LogUtils] - Value from table at row 2 column 2 is Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - Value from table at row 2 column 2 is Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - itemNameExpectedList: [Tomato - 1 Kg]
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - itemPriceExpectedList: [16]
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - qualityList: [2]
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - Verify element visible By.xpath: //tbody//td[5]/p
+[INFO] 03-09-2024 16:59:50 [main] [LogUtils] - totalRows size: 2
+[INFO] 03-09-2024 16:59:51 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 16:59:51 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:51 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:52 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 16:59:52 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:52 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 16:59:53 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 16:59:53 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:53 [main] [LogUtils] - Value from table at row 2 column 2 is Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:54 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 16:59:54 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:54 [main] [LogUtils] - Value from table at row 2 column 2 is Tomato - 1 Kg
+[INFO] 03-09-2024 16:59:55 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 16:59:55 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 2
+[INFO] 03-09-2024 16:59:55 [main] [LogUtils] - Value from table at row 2 column 3 is 2
+[INFO] 03-09-2024 16:59:55 [main] [LogUtils] - Verify Equals: 2 = 2
+[INFO] 03-09-2024 16:59:55 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:56 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[4]
+[INFO] 03-09-2024 16:59:56 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[4] is: 16
+[INFO] 03-09-2024 16:59:56 [main] [LogUtils] - Value from table at row 2 column 4 is 16
+[INFO] 03-09-2024 16:59:56 [main] [LogUtils] - Verify Equals: 16 = 16
+[INFO] 03-09-2024 16:59:56 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[5]
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[5] is: 32
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Value from table at row 2 column 5 is 32
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify Equals: 32 = 32
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 192
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify Equals: 192 = 192
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Passed verify at line 112: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Passed verify at line 113: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:57 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 192
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Verify Equals: 192 = 192
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Passed verify at line 114: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Promo Code: rahulshettyacademy
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Clear and Fill rahulshettyacademy on By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Verify element visible By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 16:59:58 [main] [LogUtils] - Clicked on the element By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 10%
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify Equals: 10 = 10
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Passed verify at line 120: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 192
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify Equals: 192 = 192
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Passed verify at line 121: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 192
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify Equals: 192 = 192
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Passed verify at line 122: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 172.8
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify Equals: 172.8 = 172.8
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Passed verify at line 129: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:00:03 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Select Option by Text: Vietnam
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Clicked on the element By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:04 [main] [LogUtils] - After scenario
+[INFO] 03-09-2024 17:00:15 [main] [LogUtils] - Before scenario
+[INFO] 03-09-2024 17:00:15 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:16 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (e82dda3b9d2462e753c97e95c70eadc4)
+[INFO] 03-09-2024 17:00:18 [main] [LogUtils] - Open URL: https://rahulshettyacademy.com/seleniumPractise/#/
+[INFO] 03-09-2024 17:00:18 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - itemNameExpectedList: [Capsicum, Apple - 1 Kg]
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - itemPriceExpectedList: [60, 72]
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - qualityList: [1, 2]
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - Clear value in textbox By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:00:19 [main] [LogUtils] - Set text Ap on By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Number of items in search result: 3
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Element existing
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Show information of list search Item result
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - itemNameActual: Capsicum
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify Equals: Capsicum CONTAINS Ap
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - itemNameActual: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify Equals: Apple - 1 Kg CONTAINS Ap
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - itemNameActual: Grapes - 1 Kg
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify Equals: Grapes - 1 Kg CONTAINS Ap
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - itemNameActual: Capsicum
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - i: 0
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - j: 0
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - itemNameExpectedList.get(j): Capsicum
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify Equals: Capsicum CONTAINS Capsicum
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - itemPriceActual: 60
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify Equals: 60 = 60
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 17:00:20 [main] [LogUtils] - Clear and Fill 1 on By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 17:00:21 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:21 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 17:00:21 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 17:00:22 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:22 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 17:00:22 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 17:00:23 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:23 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 17:00:23 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 17:00:24 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:24 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 17:00:24 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 17:00:26 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:26 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:00:26 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:00:26 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:00:26 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 60
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Value from table at row 2 column 3 is 60
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify Equals: 60 = 60
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - itemNameActual: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - i: 1
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - j: 1
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - itemNameExpectedList.get(j): Apple - 1 Kg
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify Equals: Apple - 1 Kg CONTAINS Apple - 1 Kg
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - itemPriceActual: 72
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify Equals: 72 = 72
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 17:00:27 [main] [LogUtils] - Clear and Fill 2 on By.xpath: //input[@class='quantity']
+[INFO] 03-09-2024 17:00:28 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:28 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:00:28 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:00:29 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:29 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 60
+[INFO] 03-09-2024 17:00:29 [main] [LogUtils] - Value from table at row 2 column 3 is 60
+[INFO] 03-09-2024 17:00:30 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:30 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:00:30 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:00:31 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:31 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 60
+[INFO] 03-09-2024 17:00:31 [main] [LogUtils] - Value from table at row 2 column 3 is 60
+[INFO] 03-09-2024 17:00:32 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:32 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 2
+[INFO] 03-09-2024 17:00:32 [main] [LogUtils] - Value from table at row 1 column 3 is 2
+[INFO] 03-09-2024 17:00:32 [main] [LogUtils] - Verify Equals: 2 = 2
+[INFO] 03-09-2024 17:00:32 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 204
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Value from table at row 2 column 3 is 204
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Verify Equals: 204 = 204
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - itemInCart: {Capsicum=1, Apple - 1 Kg=2}
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:00:33 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Product NameCapsicum
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - itemNameExpected: Capsicum
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify Equals: 60 = 60
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify Equals: 60 = 60
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Product NameCapsicum
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - itemNameExpected: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Product NameApple - 1 Kg
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - itemNameExpected: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify Equals: 72 = 72
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify Equals: 144 = 144
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:00:36 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - itemNameExpectedList: [Capsicum, Apple - 1 Kg]
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - itemPriceExpectedList: [60, 72]
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - qualityList: [1, 2]
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - Verify element visible By.xpath: //tbody//td[5]/p
+[INFO] 03-09-2024 17:00:37 [main] [LogUtils] - totalRows size: 2
+[INFO] 03-09-2024 17:00:38 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:00:38 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Capsicum
+[INFO] 03-09-2024 17:00:38 [main] [LogUtils] - Value from table at row 1 column 2 is Capsicum
+[INFO] 03-09-2024 17:00:39 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:00:39 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Capsicum
+[INFO] 03-09-2024 17:00:39 [main] [LogUtils] - Value from table at row 1 column 2 is Capsicum
+[INFO] 03-09-2024 17:00:40 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:00:40 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:00:40 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:00:40 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:00:40 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:41 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[4]
+[INFO] 03-09-2024 17:00:41 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[4] is: 60
+[INFO] 03-09-2024 17:00:41 [main] [LogUtils] - Value from table at row 1 column 4 is 60
+[INFO] 03-09-2024 17:00:41 [main] [LogUtils] - Verify Equals: 60 = 60
+[INFO] 03-09-2024 17:00:41 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:43 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[5]
+[INFO] 03-09-2024 17:00:43 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[5] is: 60
+[INFO] 03-09-2024 17:00:43 [main] [LogUtils] - Value from table at row 1 column 5 is 60
+[INFO] 03-09-2024 17:00:43 [main] [LogUtils] - Verify Equals: 60 = 60
+[INFO] 03-09-2024 17:00:43 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:44 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 17:00:44 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:44 [main] [LogUtils] - Value from table at row 2 column 2 is Apple - 1 Kg
+[INFO] 03-09-2024 17:00:45 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 17:00:45 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:45 [main] [LogUtils] - Value from table at row 2 column 2 is Apple - 1 Kg
+[INFO] 03-09-2024 17:00:45 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:00:45 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:46 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:00:46 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Capsicum
+[INFO] 03-09-2024 17:00:46 [main] [LogUtils] - Value from table at row 1 column 2 is Capsicum
+[INFO] 03-09-2024 17:00:47 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:00:47 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Capsicum
+[INFO] 03-09-2024 17:00:47 [main] [LogUtils] - Value from table at row 1 column 2 is Capsicum
+[INFO] 03-09-2024 17:00:48 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 17:00:48 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:48 [main] [LogUtils] - Value from table at row 2 column 2 is Apple - 1 Kg
+[INFO] 03-09-2024 17:00:49 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[2]
+[INFO] 03-09-2024 17:00:49 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[2] is: Apple - 1 Kg
+[INFO] 03-09-2024 17:00:49 [main] [LogUtils] - Value from table at row 2 column 2 is Apple - 1 Kg
+[INFO] 03-09-2024 17:00:50 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:00:50 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 2
+[INFO] 03-09-2024 17:00:50 [main] [LogUtils] - Value from table at row 2 column 3 is 2
+[INFO] 03-09-2024 17:00:50 [main] [LogUtils] - Verify Equals: 2 = 2
+[INFO] 03-09-2024 17:00:50 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:51 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[4]
+[INFO] 03-09-2024 17:00:51 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[4] is: 72
+[INFO] 03-09-2024 17:00:51 [main] [LogUtils] - Value from table at row 2 column 4 is 72
+[INFO] 03-09-2024 17:00:51 [main] [LogUtils] - Verify Equals: 72 = 72
+[INFO] 03-09-2024 17:00:51 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[5]
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[5] is: 144
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Value from table at row 2 column 5 is 144
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify Equals: 144 = 144
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 204
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify Equals: 204 = 204
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Passed verify at line 112: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Passed verify at line 113: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 204
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify Equals: 204 = 204
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Passed verify at line 114: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Promo Code: rahulshettyacademy
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 17:00:52 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 17:00:53 [main] [LogUtils] - Clear and Fill rahulshettyacademy on By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 17:00:53 [main] [LogUtils] - Verify element visible By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 17:00:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Code applied ..!
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 10%
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify Equals: 10 = 10
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Passed verify at line 120: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 204
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify Equals: 204 = 204
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Passed verify at line 121: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 204
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify Equals: 204 = 204
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Passed verify at line 122: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 183.6
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify Equals: 183.6 = 183.6
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Passed verify at line 129: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:58 [main] [LogUtils] - Select Option by Text: Vietnam
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Clicked on the element By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:00:59 [main] [LogUtils] - After scenario
+[INFO] 03-09-2024 17:01:09 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 03-09-2024 17:01:09 [main] [LogUtils] - count_totalTCs: 3
+[INFO] 03-09-2024 17:01:09 [main] [LogUtils] - count_passedTCs: 3
+[INFO] 03-09-2024 17:01:09 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 03-09-2024 17:01:09 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 03-09-2024 17:01:14 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 03-09-2024 17:01:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-09-2024 17:01:14 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=yes, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=yes, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 03-09-2024 17:01:14 [main] [LogUtils] - Before scenario
+[INFO] 03-09-2024 17:01:14 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:15 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (32ccded7bb6730c553830091b7740a84)
+[INFO] 03-09-2024 17:01:17 [main] [LogUtils] - Open URL: https://rahulshettyacademy.com/seleniumPractise/#/
+[INFO] 03-09-2024 17:01:17 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - Clear value in textbox By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:18 [main] [LogUtils] - Set text Raspberry - 1/4 Kg on By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Number of items in search result: 1
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Element existing
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Show information of list search Item result
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - i: 0
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - j: 0
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - itemNameExpectedList.get(j): Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - itemPriceActual: 160
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:01:19 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:20 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:01:20 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 17:01:20 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 17:01:21 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:01:21 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 17:01:21 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 17:01:22 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:01:22 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 17:01:22 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 17:01:23 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:01:23 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 17:01:23 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 17:01:25 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:01:25 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:01:25 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:01:25 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:01:25 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 160
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Value from table at row 2 column 3 is 160
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - itemInCart: {Raspberry - 1/4 Kg=1}
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:01:26 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Product NameRaspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - itemNameExpected: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:01:28 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - Verify element visible By.xpath: //tbody//td[5]/p
+[INFO] 03-09-2024 17:01:29 [main] [LogUtils] - totalRows size: 1
+[INFO] 03-09-2024 17:01:30 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:01:30 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:30 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:31 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:01:32 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:32 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:33 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:01:33 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:01:33 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:01:33 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:01:33 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:34 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[4]
+[INFO] 03-09-2024 17:01:34 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[4] is: 160
+[INFO] 03-09-2024 17:01:34 [main] [LogUtils] - Value from table at row 1 column 4 is 160
+[INFO] 03-09-2024 17:01:34 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:34 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[5]
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[5] is: 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Value from table at row 1 column 5 is 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Passed verify at line 112: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Passed verify at line 113: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Passed verify at line 114: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Promo Code: invalid
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Clear and Fill invalid on By.xpath: //input[@class='promoCode']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Verify element visible By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 17:01:35 [main] [LogUtils] - Clicked on the element By.xpath: //button[@class='promoBtn']
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Invalid code ..!
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Verify text of an element [Equals]: true
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Invalid code ..!
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Invalid code ..!
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='promoInfo']
+[INFO] 03-09-2024 17:01:40 [main] [LogUtils] - Get text from By.xpath: //span[@class='promoInfo'] is: Invalid code ..!
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Passed verify at line 120: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Passed verify at line 121: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Passed verify at line 122: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 160
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Passed verify at line 131: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Select Option by Text: Vietnam
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Clicked on the element By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:41 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:01:42 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:01:42 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:42 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:42 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:42 [main] [LogUtils] - After scenario
+[INFO] 03-09-2024 17:01:52 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 03-09-2024 17:01:52 [main] [LogUtils] - count_totalTCs: 4
+[INFO] 03-09-2024 17:01:52 [main] [LogUtils] - count_passedTCs: 4
+[INFO] 03-09-2024 17:01:52 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 03-09-2024 17:01:52 [main] [LogUtils] - count_skippedTCs: 0
+[INFO] 03-09-2024 17:01:54 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 03-09-2024 17:01:54 [main] [LogUtils] - Loaded all properties files.
+[INFO] 03-09-2024 17:01:54 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=yes, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=yes, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 03-09-2024 17:01:54 [main] [LogUtils] - Before scenario
+[INFO] 03-09-2024 17:01:54 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:55 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (08660564e1c4cc5cff1c5e4a335bf0e0)
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - Open URL: https://rahulshettyacademy.com/seleniumPractise/#/
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - Clear value in textbox By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:58 [main] [LogUtils] - Set text Raspberry - 1/4 Kg on By.xpath: //input[@class='search-keyword']
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Number of items in search result: 1
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Element existing
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Show information of list search Item result
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Passed verify at line 45: in method searchItem - file ProductPage.java
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - itemNameActual: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - i: 0
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - j: 0
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - itemNameExpectedList.get(j): Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Verify Equals: Raspberry - 1/4 Kg CONTAINS Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Passed verify at line 91: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - itemPriceActual: 160
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Passed verify at line 95: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:01:59 [main] [LogUtils] - Passed verify at line 98: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:02:00 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:02:00 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 17:02:00 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 17:02:01 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:02:01 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 17:02:01 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 17:02:02 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:02:02 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 0
+[INFO] 03-09-2024 17:02:02 [main] [LogUtils] - Value from table at row 1 column 3 is 0
+[INFO] 03-09-2024 17:02:03 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:02:03 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 0
+[INFO] 03-09-2024 17:02:03 [main] [LogUtils] - Value from table at row 2 column 3 is 0
+[INFO] 03-09-2024 17:02:05 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:02:05 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:02:05 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:02:05 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:02:05 [main] [LogUtils] - Passed verify at line 128: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[2]/td[3]
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[2]/td[3] is: 160
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Value from table at row 2 column 3 is 160
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Passed verify at line 132: in method addToCards - file ProductPage.java
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - itemInCart: {Raspberry - 1/4 Kg=1}
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:02:06 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Product NameRaspberry - 1/4 Kg
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - itemNameExpected: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Passed verify at line 158: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Passed verify at line 159: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Passed verify at line 164: in method verifyProceedToCheckoutPopupPage - file ProductPage.java
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify element visible By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Clicked on the element By.xpath: //a[@class='cart-icon']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:02:08 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='PROCEED TO CHECKOUT']
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - itemNameExpectedList: [Raspberry - 1/4 Kg]
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - itemPriceExpectedList: [160]
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - qualityList: [1]
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - Verify element visible By.xpath: //tbody//td[5]/p
+[INFO] 03-09-2024 17:02:09 [main] [LogUtils] - totalRows size: 1
+[INFO] 03-09-2024 17:02:10 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:02:10 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:02:10 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:02:11 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[2]
+[INFO] 03-09-2024 17:02:12 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[2] is: Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:02:12 [main] [LogUtils] - Value from table at row 1 column 2 is Raspberry - 1/4 Kg
+[INFO] 03-09-2024 17:02:13 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[3]
+[INFO] 03-09-2024 17:02:13 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[3] is: 1
+[INFO] 03-09-2024 17:02:13 [main] [LogUtils] - Value from table at row 1 column 3 is 1
+[INFO] 03-09-2024 17:02:13 [main] [LogUtils] - Verify Equals: 1 = 1
+[INFO] 03-09-2024 17:02:13 [main] [LogUtils] - Passed verify at line 99: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:14 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[4]
+[INFO] 03-09-2024 17:02:14 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[4] is: 160
+[INFO] 03-09-2024 17:02:14 [main] [LogUtils] - Value from table at row 1 column 4 is 160
+[INFO] 03-09-2024 17:02:14 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:14 [main] [LogUtils] - Passed verify at line 100: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //tbody/tr[1]/td[5]
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //tbody/tr[1]/td[5] is: 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Value from table at row 1 column 5 is 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 101: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify TRUE: true
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 106: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 112: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 113: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountAmt']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountAmt'] is: 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 114: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='discountPerc']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //span[@class='discountPerc'] is: 0%
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 0 = 0
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 120: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 121: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //span[@class='totAmt']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Get text from By.xpath: //span[@class='totAmt'] is: 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify Equals: 160 = 160
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Passed verify at line 122: in method verifyPlaceOrderConfirmation - file PlaceOrderPage.java
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Verify element visible By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Clicked on the element By.xpath: //button[text()='Place Order']
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:02:15 [main] [LogUtils] - Select Option by Text: Vietnam
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Verify element visible By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Clicked on the element By.xpath: //input[@class='chkAgree']
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Verify element visible By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Clicked on the element By.xpath: //button[contains(text(),'Proceed')]
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - Before Step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - After step
+[INFO] 03-09-2024 17:02:16 [main] [LogUtils] - After scenario
+[INFO] 03-09-2024 17:02:27 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 03-09-2024 17:02:27 [main] [LogUtils] - count_totalTCs: 5
+[INFO] 03-09-2024 17:02:27 [main] [LogUtils] - count_passedTCs: 5
+[INFO] 03-09-2024 17:02:27 [main] [LogUtils] - count_failedTCs: 0
+[INFO] 03-09-2024 17:02:27 [main] [LogUtils] - count_skippedTCs: 0

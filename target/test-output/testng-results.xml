@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-11T09:53:10 ICT" name="Default Suite" finished-at="2024-10-11T09:57:13 ICT" duration-ms="243443">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearch@3104351d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyInValiadPromoCode@63ec445c]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode@29c5ee1d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-10-11T09:53:10 ICT" name="SeleniumCucumberJava" finished-at="2024-10-11T09:57:13 ICT" duration-ms="243443">
+      <class name="runners.TestRunnerPlaceOrderWithSearch">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearch@3104351d]" started-at="2024-10-11T09:56:38 ICT" name="setUpClass" finished-at="2024-10-11T09:56:38 ICT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e88d5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearch@3104351d]" started-at="2024-10-11T09:56:38 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-11T09:57:10 ICT" duration-ms="32724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully place order with search"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place oder with search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerPlaceOrderWithSearch@3104351d]" started-at="2024-10-11T09:57:10 ICT" name="tearDownClass" finished-at="2024-10-11T09:57:13 ICT" duration-ms="2901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunnerPlaceOrderWithSearch -->
+      <class name="runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode@29c5ee1d]" started-at="2024-10-11T09:53:10 ICT" name="setUpClass" finished-at="2024-10-11T09:53:13 ICT" duration-ms="3389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e88d5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode@29c5ee1d]" started-at="2024-10-11T09:53:13 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-11T09:53:58 ICT" duration-ms="44992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully order placement single item"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order with search and apply valid promoCode"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode@29c5ee1d]" started-at="2024-10-11T09:53:58 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-11T09:54:58 ICT" duration-ms="59835" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully order placement multiple items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order with search and apply valid promoCode"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode@29c5ee1d]" started-at="2024-10-11T09:54:58 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-11T09:55:53 ICT" duration-ms="55405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Successfully order placement multiple items with 1 keyword"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order with search and apply valid promoCode"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode@29c5ee1d]" started-at="2024-10-11T09:55:53 ICT" name="tearDownClass" finished-at="2024-10-11T09:55:57 ICT" duration-ms="3151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunnerPlaceOrderWithSearchAndApplyValiadPromoCode -->
+      <class name="runners.TestRunnerPlaceOrderWithSearchAndApplyInValiadPromoCode">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyInValiadPromoCode@63ec445c]" started-at="2024-10-11T09:55:57 ICT" name="setUpClass" finished-at="2024-10-11T09:55:57 ICT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e88d5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyInValiadPromoCode@63ec445c]" started-at="2024-10-11T09:55:57 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-10-11T09:56:36 ICT" duration-ms="39052" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Place order with search and apply invalid promocode"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Place order with search and apply invalid promocode"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunnerPlaceOrderWithSearchAndApplyInValiadPromoCode@63ec445c]" started-at="2024-10-11T09:56:36 ICT" name="tearDownClass" finished-at="2024-10-11T09:56:38 ICT" duration-ms="1846" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunnerPlaceOrderWithSearchAndApplyInValiadPromoCode -->
+    </test> <!-- SeleniumCucumberJava -->
+  </suite> <!-- Default Suite -->
+</testng-results>

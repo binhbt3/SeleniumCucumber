@@ -1,0 +1,738 @@
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:20:42 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:20:47 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 10:20:47 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 10:20:48 [main] [LogUtils] - Open URL: https://crm.anhtester.com/authentication/login
+[INFO] 27-07-2024 10:20:48 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:20:48 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:20:48 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Set text anhtester@email.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Set text 12345 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:20:49 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:00 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:00 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:21:10 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:21:10 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:10 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:10 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:12 [main] [LogUtils] - Open URL: https://crm.anhtester.com/authentication/login
+[INFO] 27-07-2024 10:21:12 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:12 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:12 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Set text anhtester@email.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Set text 12345 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:13 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:25 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:25 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:21:35 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:21:35 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:35 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:35 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:37 [main] [LogUtils] - Open URL: https://crm.anhtester.com/authentication/login
+[INFO] 27-07-2024 10:21:37 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:37 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:37 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:37 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:37 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:21:38 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:21:38 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:38 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:38 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:38 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:48 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:48 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:21:58 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:21:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:21:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:21:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:00 [main] [LogUtils] - Open URL: https://crm.anhtester.com/authentication/login
+[INFO] 27-07-2024 10:22:00 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:00 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:00 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:00 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:00 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:22:01 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 10:22:01 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:01 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:01 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:01 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:11 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:11 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:22:21 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:22:21 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:21 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:21 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:21 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:21 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:22:42 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 10:22:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 10:22:42 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 10:22:42 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:22:42 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:46 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (e3d302fd182a2e0df430a1b21085f320)
+[INFO] 27-07-2024 10:22:46 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 10:22:46 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 10:22:47 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 10:22:47 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:22:47 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:22:47 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:22:47 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:22:47 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 10:22:49 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 10:22:49 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:49 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:49 [main] [LogUtils] - BINH DEBUG
+[INFO] 27-07-2024 10:22:49 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 27-07-2024 10:22:49 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 27-07-2024 10:22:50 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Category']
+[INFO] 27-07-2024 10:22:50 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Category']
+[INFO] 27-07-2024 10:22:50 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:50 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:50 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Add New category']
+[INFO] 27-07-2024 10:22:51 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Add New category']
+[INFO] 27-07-2024 10:22:51 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='name']
+[INFO] 27-07-2024 10:22:51 [main] [LogUtils] - Set text Limnor on By.xpath: //input[@id='name']
+[INFO] 27-07-2024 10:22:51 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='order_level']
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Set text 86 on By.xpath: //input[@id='order_level']
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Meta Title']
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Set text Maple on By.xpath: //input[@placeholder='Meta Title']
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Verify element visible By.xpath: //textarea[@name='meta_description']
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Set text Hồ Tuân Long on By.xpath: //textarea[@name='meta_description']
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:52 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Save']
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Save']
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - Verify element visible By.xpath: //span[@data-notify='message']
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - Get text from By.xpath: //span[@data-notify='message'] is: Category has been inserted successfully
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:22:53 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:23:03 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 10:23:20 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 10:23:20 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 10:23:20 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 10:23:20 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 10:23:20 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:23:24 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (5b3bcf3bf428a31494668c64ed70dce3)
+[INFO] 27-07-2024 10:23:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 10:23:24 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 10:23:25 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 10:23:25 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:23:25 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 10:23:25 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:23:26 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 10:23:26 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 10:23:27 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 10:23:27 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:23:27 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:23:27 [main] [LogUtils] - BINH DEBUG
+[INFO] 27-07-2024 10:23:27 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 27-07-2024 10:23:27 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 27-07-2024 10:23:28 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Category']
+[INFO] 27-07-2024 10:23:29 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Category']
+[INFO] 27-07-2024 10:23:29 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:23:29 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:23:29 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Add New category']
+[INFO] 27-07-2024 10:23:29 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Add New category']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='name']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Set text A++ on By.xpath: //input[@id='name']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='order_level']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Set text 89 on By.xpath: //input[@id='order_level']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Meta Title']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Set text Agora on By.xpath: //input[@placeholder='Meta Title']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Verify element visible By.xpath: //textarea[@name='meta_description']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Set text Đào Hữu Tăng Hữu on By.xpath: //textarea[@name='meta_description']
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:23:30 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Save']
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Save']
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - Verify element visible By.xpath: //span[@data-notify='message']
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - Get text from By.xpath: //span[@data-notify='message'] is: Category has been inserted successfully
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - After step
+[INFO] 27-07-2024 10:23:31 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 10:23:42 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 17:50:44 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 17:50:44 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:50:44 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:50:44 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 17:50:44 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:50:52 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (cd6a80da745af1b22405da165cc09bdc)
+[INFO] 27-07-2024 17:50:53 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:50:53 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:50:54 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 17:50:54 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:50:54 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:50:54 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:50:54 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:50:54 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:50:55 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:50:55 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:50:55 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:50:55 [main] [LogUtils] - BINH DEBUG
+[INFO] 27-07-2024 17:50:56 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Products']
+[INFO] 27-07-2024 17:50:56 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Products']
+[INFO] 27-07-2024 17:50:56 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Category']
+[INFO] 27-07-2024 17:50:57 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Category']
+[INFO] 27-07-2024 17:50:57 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:50:57 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:50:57 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Add New category']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Clicked on the element By.xpath: //span[normalize-space()='Add New category']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='name']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Set text JOVIAL on By.xpath: //input[@id='name']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='order_level']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Set text 12 on By.xpath: //input[@id='order_level']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Verify element visible By.xpath: //input[@placeholder='Meta Title']
+[INFO] 27-07-2024 17:50:58 [main] [LogUtils] - Set text Lasso on By.xpath: //input[@placeholder='Meta Title']
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Verify element visible By.xpath: //textarea[@name='meta_description']
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Set text Hoàng Vân on By.xpath: //textarea[@name='meta_description']
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Save']
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Save']
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:50:59 [main] [LogUtils] - Verify element visible By.xpath: //span[@data-notify='message']
+[INFO] 27-07-2024 17:51:00 [main] [LogUtils] - Get text from By.xpath: //span[@data-notify='message'] is: Category has been inserted successfully
+[INFO] 27-07-2024 17:51:00 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:51:00 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 17:51:10 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 17:51:39 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 17:51:39 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:51:39 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:51:39 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 17:51:39 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:51:41 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (0b290266b28d7de0ace6ea15e34727dc)
+[INFO] 27-07-2024 17:51:41 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:51:41 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:51:42 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:51:42 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 17:51:42 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:51:42 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:51:42 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 17:51:42 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 17:51:43 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 17:51:44 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:51:44 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:51:44 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:51:44 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:51:44 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (0b290266b28d7de0ace6ea15e34727dc)
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - Screenshot taken: Successful login
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:51:45 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 17:51:56 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 17:54:40 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 17:54:40 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:54:40 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:54:40 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 17:54:40 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:54:42 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (e801a1d7d1b7199fa366bd70269703e4)
+[INFO] 27-07-2024 17:54:42 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:54:42 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:54:43 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:54:44 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 17:54:44 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:54:44 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:54:44 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 17:54:44 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 17:54:44 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 17:54:45 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:54:45 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:54:45 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:54:45 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:54:45 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (e801a1d7d1b7199fa366bd70269703e4)
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - Screenshot taken: Successful login
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:54:46 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 17:54:57 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 17:56:05 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 17:56:05 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:56:05 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:56:05 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 17:56:05 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:56:08 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (bc4099f701519923caae6cb243f72312)
+[INFO] 27-07-2024 17:56:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 17:56:09 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:56:11 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:56:12 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:56:12 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:56:12 [main] [LogUtils] - Before Step
+[ERROR] 27-07-2024 17:56:23 [main] [LogUtils] - Element not exist. By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 17:56:23 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:56:23 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (0e65e5a9674ed7a3d59f9e582dcb2be3)
+[INFO] 27-07-2024 17:56:23 [main] [LogUtils] - Screenshot taken: Login CMS successfully
+[INFO] 27-07-2024 17:56:23 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:56:23 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 17:56:34 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 17:56:34 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:56:35 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (ed918e047e6c7b7b923a8d5a680604dc)
+[INFO] 27-07-2024 17:56:36 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:56:36 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 17:56:36 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:56:36 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:56:36 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 17:56:36 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 17:56:38 [main] [LogUtils] - Open URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 17:56:38 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:56:38 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 17:56:38 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:56:38 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 17:56:39 [main] [LogUtils] - Verify element visible By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:56:40 [main] [LogUtils] - Clicked on the element By.xpath: //button[normalize-space()='Login']
+[INFO] 27-07-2024 17:56:40 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:56:40 [main] [LogUtils] - Before Step
+[ERROR] 27-07-2024 17:56:50 [main] [LogUtils] - Element not exist. By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 17:56:50 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:56:50 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (ed918e047e6c7b7b923a8d5a680604dc)
+[INFO] 27-07-2024 17:56:50 [main] [LogUtils] - Screenshot taken: Successful login
+[INFO] 27-07-2024 17:56:50 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:56:50 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 17:57:01 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 17:57:01 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:57:02 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (c56f4c4165e1304c62f644dbf8f7ba3a)
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - After step
+[INFO] 27-07-2024 17:57:04 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 17:57:14 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 18:01:24 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 18:01:24 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 18:01:24 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 18:01:24 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 18:01:24 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:28 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (31bc922bc11f5d66d6a9c37d4e76762e)
+[INFO] 27-07-2024 18:01:28 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 18:01:28 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:29 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:01:30 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:01:30 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:30 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:30 [main] [LogUtils] - Get Current URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:01:31 [main] [LogUtils] - Verify Equals: https://cms.anhtester.com/admin = https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:01:31 [main] [LogUtils] - Passed verify at line 40: in method userRedirectToAdminPage - file StepsLoginCMS.java
+[INFO] 27-07-2024 18:01:31 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:31 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:31 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:31 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 18:01:41 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 18:01:41 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:42 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (26a8d93e616a118c6c7dcffd3994df3a)
+[INFO] 27-07-2024 18:01:43 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:01:43 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 18:01:43 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:43 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:43 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 18:01:43 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 18:01:44 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:01:44 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:01:45 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:01:45 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:01:45 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:45 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:45 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:01:46 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:01:46 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:46 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:46 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Admin Example']
+[INFO] 27-07-2024 18:01:46 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:46 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 18:01:56 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 18:01:56 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:57 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (30b2ff4a847b8c5b9bd1c41121ab61b5)
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:01:58 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 18:02:09 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 18:05:11 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 18:05:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 18:05:11 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 18:05:12 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 18:05:12 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:05:19 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (3b269aa1697d3c22d6b9df80efb1329b)
+[INFO] 27-07-2024 18:05:19 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 18:05:19 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 18:05:21 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:05:21 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 18:05:21 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:05:21 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:05:21 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 18:05:21 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 18:05:24 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:05:24 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:05:25 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:05:25 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:05:25 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:05:25 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:05:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:05:26 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:05:26 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:05:26 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:05:26 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Admin Example']
+[INFO] 27-07-2024 18:05:26 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:05:26 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 18:05:37 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 18:21:52 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 18:21:52 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 18:21:52 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 18:21:53 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 18:21:53 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:21:56 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (00437a2a108d8d854bc33b047da2f670)
+[INFO] 27-07-2024 18:21:56 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 18:21:56 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 18:21:58 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:21:58 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 18:21:58 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:21:58 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:21:58 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 18:21:58 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:00 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:22:01 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:22:01 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:01 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:01 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Admin Example']
+[INFO] 27-07-2024 18:22:01 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:01 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 18:22:15 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 18:22:15 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:18 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (964cfb7fe2bfaa5d86cd46d7ddbe93db)
+[INFO] 27-07-2024 18:22:19 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 18:22:19 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 18:22:19 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:19 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:19 [main] [LogUtils] - Set Excel File: src/test/resources/datatest/CMS.xlsx
+[INFO] 27-07-2024 18:22:19 [main] [LogUtils] - Sheet Name: Login
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - Set text 12345 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:20 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:22:21 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - After step
+[INFO] 27-07-2024 18:22:22 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 18:22:35 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 21:54:10 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 21:54:10 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 21:54:10 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 21:54:10 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 21:54:10 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 21:54:16 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (8fdeb75c07acfd23134d6c32ace84617)
+[INFO] 27-07-2024 21:54:16 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 21:54:16 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 21:54:17 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 21:54:17 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 21:54:17 [main] [LogUtils] - After step
+[INFO] 27-07-2024 21:54:17 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 21:54:17 [main] [LogUtils] - After step
+[INFO] 27-07-2024 21:54:17 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (8fdeb75c07acfd23134d6c32ace84617)
+[INFO] 27-07-2024 21:54:18 [main] [LogUtils] - Screenshot taken: DataTable sample
+[INFO] 27-07-2024 21:54:18 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 21:54:18 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 21:54:30 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 22:21:08 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 22:21:08 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:21:08 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:21:09 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 22:21:09 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:21:12 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (a2506316e910f6b1bc427ab29e5d699e)
+[INFO] 27-07-2024 22:21:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:21:12 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Set text user@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Set text 123 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:21:14 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:21:15 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:21:15 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:21:15 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:21:16 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:21:16 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:21:16 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:21:17 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:21:17 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:21:17 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:21:17 [main] [LogUtils] - Verify element visible By.xpath: //span[normalize-space()='Admin Example']
+[INFO] 27-07-2024 22:21:17 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:21:17 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 22:21:27 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 22:33:12 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 22:33:12 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:33:12 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:33:13 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 22:33:13 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:33:18 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (98387fb222d6cb0fd43c090157bcf06a)
+[INFO] 27-07-2024 22:33:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:33:18 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:33:19 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:33:19 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:33:19 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:33:19 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:33:19 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:33:19 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (98387fb222d6cb0fd43c090157bcf06a)
+[INFO] 27-07-2024 22:33:20 [main] [LogUtils] - Screenshot taken: Invalid Login with multiple account
+[INFO] 27-07-2024 22:33:20 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 22:33:20 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 22:33:30 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 22:34:06 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 22:34:06 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:34:06 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:34:07 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 22:34:07 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:34:11 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (e3a065ea6201d0515a0f03f032f93789)
+[INFO] 27-07-2024 22:34:11 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:34:11 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:34:12 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:34:12 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:34:12 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:34:12 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:34:12 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:34:13 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (e3a065ea6201d0515a0f03f032f93789)
+[INFO] 27-07-2024 22:34:13 [main] [LogUtils] - Screenshot taken: Invalid Login with multiple account
+[INFO] 27-07-2024 22:34:13 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 22:34:13 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 22:34:24 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 22:39:09 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 22:39:09 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:39:09 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:39:09 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 22:39:09 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:39:13 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (32b250499e970479ddfd3d8ad3948a2b)
+[INFO] 27-07-2024 22:39:13 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:39:13 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (32b250499e970479ddfd3d8ad3948a2b)
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - Screenshot taken: Invalid Login with multiple account
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/login
+[INFO] 27-07-2024 22:39:15 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 22:39:26 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 22:46:14 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 22:46:14 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:46:14 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:46:14 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 22:46:14 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:46:18 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (03bbf6f98340910ff8ecb1240121a447)
+[INFO] 27-07-2024 22:46:18 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:46:18 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Set text user@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Set text 123 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:46:23 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:46:24 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:46:25 [main] [LogUtils] - Set text admin@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:46:25 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:46:25 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:46:25 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:46:26 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[ERROR] 27-07-2024 22:46:36 [main] [LogUtils] - The error message is not visibleBy.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:46:36 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:46:36 [main] [LogUtils] - Driver for Screenshot: ChromeDriver: chrome on windows (03bbf6f98340910ff8ecb1240121a447)
+[INFO] 27-07-2024 22:46:37 [main] [LogUtils] - Screenshot taken: Invalid Login with multiple account
+[INFO] 27-07-2024 22:46:37 [main] [LogUtils] - Screenshot taken current URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:46:37 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 22:46:48 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 22:47:50 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 22:47:50 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:47:50 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:47:51 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 22:47:51 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:47:57 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (211f4e1727f7e2872b45d2b3d10bfd27)
+[INFO] 27-07-2024 22:47:57 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 22:47:57 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 22:47:59 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Set text user@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Set text 123 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:48:00 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Set text admin1@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:48:01 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 22:48:02 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:48:02 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 22:48:02 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:48:02 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - After step
+[INFO] 27-07-2024 22:48:03 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 22:48:13 [main] [LogUtils] - ----------------After All--------------------
+[INFO] 27-07-2024 23:02:32 [main] [LogUtils] - ----------------Before All-------------------
+[INFO] 27-07-2024 23:02:32 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 23:02:32 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 23:02:32 [main] [LogUtils] - Before scenario
+[INFO] 27-07-2024 23:02:32 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 23:02:36 [main] [LogUtils] - Driver in TestContext: ChromeDriver: chrome on windows (a280ca3296cc05220c1b604e087757ad)
+[INFO] 27-07-2024 23:02:36 [main] [LogUtils] - Loaded all properties files.
+[INFO] 27-07-2024 23:02:36 [main] [LogUtils] - {TARGET=local, RETRY_TEST_FAIL=1, TELEGRAM_CHATID=, OVERRIDE_REPORTS=yes, SEND_REPORT_TO_TELEGRAM=no, SEND_EMAIL_TO_USERS=yes, ZIP_FOLDER_NAME=ExtentReports.zip, WAIT_DEFAULT=5, ADMIN_PASSWORD=123456, TELEGRAM_TOKEN=, CMS_DATA_FILE=src/test/resources/datatest/CMS.xlsx, VIDEO_RECORD=no, SCREENSHOT_ALL_STEPS=no, EXTENT_REPORT_NAME=ExtentReports, EXPORT_VIDEO_PATH=ExportData/Videos, EXPORT_CAPTURE_PATH=ExportData/Images, WAIT_PAGE_LOADED=40, SCREENSHOT_PASSED_STEPS=no, EXTENT_REPORT_FOLDER=reports/ExtentReports, WAIT_EXPLICIT=10, BROWSER=chrome, SCREENSHOT_SKIPPED_STEPS=yes, REPORT_TITLE=Report | Automation Framework Selenium, AUTHOR=Tester, WAIT_IMPLICIT=20, PROJECT_NAME=Automation Framework Selenium, URL=https://cms.anhtester.com/admin, HEADLESS=false, SCREENSHOT_FAILED_STEPS=yes, ACTIVE_PAGE_LOADED=true, WAIT_SLEEP_STEP=0, OPEN_REPORTS_AFTER_EXECUTION=no, ZIP_FOLDER_PATH=reports/ExtentReports, LOCATE=vi, ADMIN_EMAIL=admin@example.com, ZIP_FOLDER=no}
+[INFO] 27-07-2024 23:02:37 [main] [LogUtils] - Open URL: https://cms.anhtester.com/admin
+[INFO] 27-07-2024 23:02:37 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 23:02:37 [main] [LogUtils] - After step
+[INFO] 27-07-2024 23:02:37 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 23:02:37 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 23:02:37 [main] [LogUtils] - Set text user@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 23:02:38 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 23:02:38 [main] [LogUtils] - Set text 123 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 23:02:38 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='email']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Set text admin1@example.com on By.xpath: //input[@id='email']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Verify element visible By.xpath: //input[@id='password']
+[INFO] 27-07-2024 23:02:39 [main] [LogUtils] - Set text 123456 on By.xpath: //input[@id='password']
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Verify element visible By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Clicked on the element By.xpath: //button[@type='submit']
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - After step
+[INFO] 27-07-2024 23:02:40 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Verify element visible By.xpath: //div[@role='alert']
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Get text from By.xpath: //div[@role='alert'] is: Invalid login credentials
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Verify Equals: Invalid login credentials = Invalid login credentials
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Passed verify at line 52: in method userShouldSeeAnErrorMessage - file LoginCMSPage.java
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - After step
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Before Step
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - Verify element visible By.xpath: //p[normalize-space()='Login to your account.']
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - After step
+[INFO] 27-07-2024 23:02:41 [main] [LogUtils] - After scenario
+[INFO] 27-07-2024 23:02:51 [main] [LogUtils] - ----------------After All--------------------
